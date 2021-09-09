@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+.main-heading h1
+{
+    text-align: center;
+    font-weight: 300;
+}
+.navbar
+{
+    width:100%;
+    background-color:rgb(39, 35, 35);
+    margin-top: 2rem;
+}
+.navbar h3
+{
+    color: whitesmoke;
+    padding-top: 1rem;
+    display: inline-block;
+    margin-left: 1rem;
+}
+.container
+{
+    width: 80%;
+    margin: 20px auto;
+
+}
+.navbar ul
+{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10rem;
+}
+
+ a
+{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: .5rem;
+    
+}
+.navbar li
+{
+    display: inline-block;
+    margin-bottom: 1rem;
+  
+}
+.navbar button
+{
+    margin-left: 5rem;
+    /* border: .rem solid yellow; */
+    border-radius: 4rem;
+    background-color: yellow;
+    padding: .5rem;
+    width: 7rem;
+   
+
+}
+   .navbar-aboutme
+{
+  
+    text-decoration: underline;
+  
+    
+}
+.section-one-image img
+{
+    width: 25vw;
+    position: relative;
+    margin-left: 2rem;
+    
+} 
+/* .content
+{
+    position: relative;
+} */
+.digital
+{
+    position: absolute;
+    top:20rem;
+    left:35rem;
+    border-radius: 3rem;
+    border: 1rem solid black;
+    background-color: black;
+    color: white;
+    padding-left: .5rem;
+}
+.hello
+{
+    position: absolute;
+    top:25rem;
+    left: 35rem;
+    border-radius: 3rem;
+    border: 1rem solid yellow;
+    background-color: yellow;
+    color: black;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.digital::before
+{
+    content:'\1F44B';
+}
+
+.benresume
+{
+    margin-top: 5rem;
+    width: 40vw;
+    float: left;
+}
+.para
+{
+    margin-top: 2rem;
+    line-height: 2rem;
+    color: rgb(129, 127, 127);
+ 
+}
+#span
+{
+    color:black;
+}
+.resumeimg
+{
+    width:30vw;
+    float: left;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    border-radius: 3rem;
+}
+.floatclear
+{
+    clear: both;
+}
+.integer
+{
+     float: left;
+     width: 30%;
+     color: rgb(129, 127, 127);
+     
+}
+.mauris
+{
+     float: left;
+     width: 30%;
+     color: rgb(129, 127, 127);
+     padding-left: 1rem;
+}
+.integerid
+{
+     float: left;
+     width: 30%;
+     color: rgb(129, 127, 127);
+     padding-left: 1rem;
+}
+.section-three
+{
+    
+    margin-top: 4rem;
+    line-height: 2rem;
+    padding:1rem;
+   
+    
+}
+
+.section-fourth
+{
+    margin-top: 7rem;
+  
+}
+/* .fourth h1
+{
+    text-align: center;
+    margin-bottom: 3rem;
+    border: 1rem solid green;
+  
+}
+.benn
+{
+    float:left;
+    width:20vw;
+    padding-left: 5rem;
+    line-height: 2rem;
+}
+
+.mari
+{
+    float:left;
+    width:20vw;
+    padding-left: 5rem;
+    line-height: 2rem;
+}
+.deep
+{
+    float:left;
+    width:20vw;
+    padding-left: 5rem;
+    line-height: 2rem;
+} */
+
+/* .ben::before
+{
+    content: url('./images/testimonial-image01.jpg');
+    display: inline-block;
+   
+    transform: scale(.4);
+    
+    
+ 
+} */
+
+.last-section
+{
+
+    position: relative;
+    
+}
+.last-section h2
+{
+    margin-top: 7rem;
+     text-align: center;
+}
+.ben
+{
+    width: 20vw;
+    margin-top: 3rem;
+    float: left;
+    padding-left: 4rem;
+    margin-left: 3rem;
+}
+.marie
+{
+    width: 20vw;
+    margin-top: 3rem;
+    float: left;
+    padding-left: 4rem;
+    margin-left: 3rem;
+}
+.den 
+{
+    width: 20vw;
+    margin-top: 3rem;
+    float: left;
+    padding-left: 4rem;
+    margin-left: 3rem;
+}
+.ben::before
+{
+    content: url('./testimonial-image01.jpg');
+    display: inline-block;
+    transform: scale(.4);
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    left:-2rem;
+    top:2rem;
+    
+   
+}
+.marie::before
+{
+    content: url('./testimonial-image02.jpg');
+    display: inline-block;
+    transform: scale(.4);
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left:15rem;
+    top:2rem;
+    
+   
+}
+.den::before
+{
+    content: url('./testimonial-image03.jpg');
+    display: inline-block;
+    transform: scale(.4);
+    position: absolute;
+    left:32rem;
+    top:2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    
+   
+}
+.last-section p
+{
+    line-height: 2rem;
+}
